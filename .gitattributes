@@ -1,0 +1,5 @@
+# Let git normalise text files, but keep the build scripts runnable on their own platform.
+* text=auto
+gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary

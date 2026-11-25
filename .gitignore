@@ -1,0 +1,26 @@
+# Build output and caches
+/build/
+/app/build/
+/.gradle/
+/.kotlin/
+/captures/
+*.apk
+*.aab
+
+# Machine-specific files (local SDK path, IDE state)
+/local.properties
+/.idea/
+*.iml
+
+# Signing keys and secrets: never commit these
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
